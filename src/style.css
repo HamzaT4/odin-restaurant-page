@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;;
+    background-color: #fef08a;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+  
+   
+   
+  }
+  li {
+    display: inline-block;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    font-size: 1.2rem;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    background: #facc15;
+    
+   
+  }
+  li:hover{
+    background: #fef08a;
+  }
+  #content{
+    margin-inline: 20%;
+    margin-block: 1rem;
+    background-color:#facc15;
+    min-height: 800px   ;
+    max-width: 80%;
+    border-radius: 20px;
+    padding: 0.8rem;
+  }
